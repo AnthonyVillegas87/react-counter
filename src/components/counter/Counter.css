@@ -1,7 +1,6 @@
 
-.counterButton {
+button {
     font-size: 18px;
-    background-color: grey;
     width: 100px;
     /*margin creates extra space AROUND an element*/
     margin: 10px;
@@ -13,6 +12,10 @@
     border-width: 2px;
 }
 
+.counterButton {
+    background-color: grey;
+}
+
 .count {
     font-size: 50px;
     padding: 20px;
@@ -20,6 +23,10 @@
 }
 
 .totalCount {
-    color: crimson;
+    color: darkslategray;
     font-size: 150px;
+}
+
+.resetButton {
+    background-color: red;
 }
