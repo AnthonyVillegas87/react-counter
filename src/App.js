@@ -10,10 +10,4 @@ function App() {
 }
 
 
-function counterProps({prop1, prop2}) {
-    return (
-        <div>Prop</div>
-    )
-}
-
 export default App;
