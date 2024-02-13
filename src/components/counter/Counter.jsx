@@ -1,7 +1,12 @@
-import {Suspense} from "react";
-import {logDOM} from "@testing-library/react";
+
+
+
+import './Counter.css'
+
+
 
 export default function Counter() {
+
 
     function incrementCountFunction() {
         console.log('clicked')
@@ -13,7 +18,9 @@ export default function Counter() {
 
             <span className="count">0</span>
             <div>
-                <button className="counterButton" onClick={incrementCountFunction}>+1</button>
+                <button className="counterButton"
+                        onClick={incrementCountFunction}
+                >+1</button>
             </div>
 
         </div>
